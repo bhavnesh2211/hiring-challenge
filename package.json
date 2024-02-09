@@ -1,0 +1,53 @@
+{
+  "name": "hiring-challenge",
+  "version": "1.0.0",
+  "description": "We need to set up backend APIs that allow authenticated users to search and fetch data from Marvel. You can refer to this [documentation](https://developer.marvel.com/docs) for Marvel APIs. You need to set up a developer account to get an API key.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --exec npx 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavnesh2211/hiring-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavnesh2211/hiring-challenge/issues"
+  },
+  "homepage": "https://github.com/bhavnesh2211/hiring-challenge#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/body-parser": "^1.19.5",
+    "@types/boom": "^7.3.5",
+    "@types/debug": "^4.1.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "prisma": "^5.9.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@prisma/client": "^5.9.1",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "boom": "^7.3.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "joi": "^17.12.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.0.3",
+    "save": "^2.9.0"
+  }
+}
