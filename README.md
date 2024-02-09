@@ -4,6 +4,8 @@ We need to set up backend APIs that allow authenticated users to search and fetc
 
 ## Project Steps
 
+I have used ExpressJs, TypeScript, Mysql, Prisma orm, Jwt.
+
 #### First Clone repo from github
 
 #### Install modules using npm install
